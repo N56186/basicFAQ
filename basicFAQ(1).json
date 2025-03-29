@@ -1,0 +1,993 @@
+{
+	"data": {
+		"greet": {
+			"tag": "greet",
+			"label": "Greet",
+			"id": 1,
+			"patterns": [ 
+				"hey",
+				"hello",
+				"hi",
+				"good morning",
+				"good afternoon",
+				"good evening",
+				"howdy",
+				"what's up",
+				"yo",
+				"greetings",
+                "hi there",
+				"hey there",
+				"sup",
+				"hola",
+				"bonjour",
+				"namaste",
+				"salutations",
+				"how’s it going",
+				"long time no see",
+                "hiya",
+				"hello there",
+				"hey, how’s your day going",
+				"good to see you",
+				"yo yo",
+                "heyyyyyyyyyyyyy",
+                "hei",
+                "hello",
+                "hi hi",
+                "hey its me again",
+                "wellhellothere",
+                "helloooo"
+			],
+			"responses": {
+				"message": [
+					"Hello!Welcome to our Core4 Engineers! How can I assist you today?"
+				]
+			}
+		},
+		"thanks": {
+			"tag": "thanks",
+			"label": "Thanks",
+			"id": 2,
+			"patterns": [
+				"thank you",
+				"thanks",
+				"thanks a lot",
+                "many thanks",
+				"thanks so much",
+				"thank you very much",
+				"thanks a ton",
+				"thanks a bunch",
+				"really appreciate it",
+				"much obliged",
+				"grateful for that",
+				"big thanks",
+				"cheers",
+				"thanks a million",
+                "amazing thanks",
+                "perfect thanks",
+                "cool thanks",
+                "okay thanks"
+			],
+			"responses": {
+				"message": [
+					"You're welcome!",
+					"Glad to help!"
+				]
+			}
+		},
+		"bye": {
+			"tag": "bye",
+			"label": "Bye",
+			"id": 3,
+			"patterns": [
+				"bye",
+				"goodbye",
+				"see you later"
+			],
+			"responses": {
+				"message": [
+					"Goodbye! Have a great day!",
+					"See you next time!"
+				]
+			}
+		},
+		"services": {
+			"tag": "services",
+			"label": "Services Offered",
+			"id": 4,
+			"patterns": [
+				"what services do you offer",
+				"tell me about your services",
+				"what can I do here",
+                "what kind of support do you provide",
+				"what are the available services",
+				"can you list your services",
+				"how can you help me",
+				"what do you specialize in",
+				"what assistance do you provide",
+				"do you offer customer support",
+				"can you help me with my order",
+				"what features do you have",
+                "what solutions do you provide",
+				"do you offer technical support",
+				"how do you assist customers",
+				"what kind of help can I get here",
+				"can you help me with an issue",
+				"do you provide live support",
+				"do you have a help desk",
+				"can I get help with billing",
+				"do you assist with troubleshooting",
+				"what customer services do you provide",
+				"do you offer product recommendations"
+			],
+			"responses": {
+				"message": [
+					"We offer a variety of services including power transmission, automation system,energy management services, IT infrastructure, customer support, product information, and order tracking.",
+                    "You can get help with product details, order status, technical issues, and general inquiries."
+				]
+			}
+		},
+		"order_tracking": {
+			"tag": "order_tracking",
+			"label": "Order Tracking",
+			"id": 5,
+			"patterns": [
+				"how can I track my order",
+				"order tracking",
+				"where is my order",
+                "track my package",
+				"how do I check my order status",
+				"can you tell me where my order is",
+				"order status update",
+				"how to find my tracking number",
+				"track my shipment",
+				"help me track my order",
+				"where can I see my order details",
+				"when will my order arrive",
+				"how long will my order take",
+				"can you check my order status",
+				"where is my package right now",
+				"what is the estimated delivery time",
+				"is my order delayed",
+				"has my order been shipped",
+				"when will my package be delivered",
+				"can I get real-time tracking updates",
+				"how do I know if my order has been dispatched",
+                "do you provide live tracking updates",
+				"my order is not showing up in tracking",
+				"why hasn’t my order shipped yet",
+				"what do I do if my order is lost",
+				"my tracking number is not working",
+				"who is the shipping carrier for my order",
+				"what if my order status says 'pending'",
+				"can I track my order without a tracking number",
+				"why is my tracking status not updating",
+				"how do I contact the courier for my order",
+				"can I request faster delivery",
+				"what does 'out for delivery' mean",
+				"what if my order was delivered to the wrong address",
+				"what should I do if my package is marked as delivered but I haven't received it",
+				"can I track multiple orders at once",
+				"how do I check if my order is stuck in customs",
+				"does my order require a signature upon delivery"
+			],
+			"responses": {
+				"message": [
+					"You can track your order using the tracking link sent to your email after purchase.If any issues contact us."
+				]
+			}
+		},
+		"reset_password": {
+			"tag": "reset_password",
+			"label": "Reset Password",
+			"id": 6,
+			"patterns": [
+				"how do I reset my password",
+				"password reset",
+				"forgot my password"
+			],
+			"responses": {
+				"message": [
+					"You can reset your password by clicking on the 'Forgot Password' link on the login page."
+				]
+			}
+		},
+		"error_encounter": {
+			"tag": "error_encounter",
+			"label": "Error Encounter",
+			"id": 7,
+			"patterns": [
+				"what should I do if I encounter an error",
+				"error message",
+				"how to fix an error",
+                "why am I getting an error",
+				"there's an issue with the website",
+				"something went wrong",
+				"how do I report a bug",
+				"why is the page not loading",
+				"the website is not working",
+				"the app crashed",
+				"how do I fix a loading issue",
+				"getting an unexpected error",
+				"my transaction failed",
+				"I can't complete my purchase",
+				"the site is showing a blank page",
+				"why is the payment not processing",
+				"why am I getting a 404 error",
+				"how do I clear my cache to fix errors",
+				"why is the website running slow",
+				"do you have a troubleshooting guide",
+				"what should I do if my screen freezes",
+				"how do I reset the application",
+				"my account actions are not saving",
+				"why is the checkout page not loading"
+			],
+			"responses": {
+				"message": [
+					"If you encounter an error, please refresh the page or contact support if the issue persists."
+				]
+			}
+		},
+		"update_account": {
+			"tag": "update_account",
+			"label": "Update Account Information",
+			"id": 8,
+			"patterns": [
+				"how can I update my account information",
+				"update my account",
+				"change account details"
+			],
+			"responses": {
+				"message": [
+					"You can update your account information in the 'Account Settings' section of your profile."
+				]
+			}
+		},
+        "payment_methods": {
+			"tag": "payment_methods",
+			"label": "Payment Methods",
+			"id": 9,
+			"patterns": [
+				"what payment methods do you accept",
+				"how can I pay",
+				"do you accept credit cards",
+				"can I use PayPal",
+				"what are the available payment options",
+				"can I pay with cryptocurrency",
+				"is cash on delivery available",
+                "do you accept bank transfers",
+				"can I use my debit card to pay",
+				"do you offer cash on delivery",
+				"do you accept international payments",
+				"can I use a prepaid card",
+				"are there any additional fees for payments"
+			],
+			"responses": {
+				"message": [
+					"We accept various payment methods, including credit/debit cards, PayPal, and other digital wallets."
+				]
+			}
+		},
+		"refund_policy": {
+			"tag": "refund_policy",
+			"label": "Refund Policy",
+			"id": 10,
+			"patterns": [
+				"what is your refund policy",
+				"can I get a refund",
+				"how do I request a refund",
+				"do you offer money-back guarantees",
+				"how long does it take to process a refund",
+				"am I eligible for a refund"
+			],
+			"responses": {
+				"message": [
+					"Our refund policy allows you to request a refund within a specific period. Please check our Refund Policy page for details."
+				]
+			}
+		},
+		"shipping_info": {
+			"tag": "shipping_info",
+			"label": "Shipping Information",
+			"id": 11,
+			"patterns": [
+				"how long does shipping take",
+				"what are the shipping options",
+				"do you offer international shipping",
+				"can I expedite my shipping",
+				"what is the shipping cost",
+				"how do I change my shipping address"
+			],
+			"responses": {
+				"message": [
+					"Shipping times and costs depend on your location and chosen method. You can view estimated delivery times at checkout."
+				]
+			}
+		},
+		"cancel_order": {
+			"tag": "cancel_order",
+			"label": "Cancel Order",
+			"id": 12,
+			"patterns": [
+				"how do I cancel my order",
+				"can I cancel my order",
+				"what is the cancellation policy",
+				"how long do I have to cancel my order",
+				"can I get a refund after canceling"
+			],
+			"responses": {
+				"message": [
+					"You can cancel your order before it ships by visiting the 'Order History' section or contacting customer support."
+				]
+			}
+		},
+		"contact_support": {
+			"tag": "contact_support",
+			"label": "Contact Support",
+			"id": 13,
+			"patterns": [
+				"how do I contact customer support",
+				"where can I get help",
+				"do you have live chat support",
+				"can I speak to a representative",
+				"is there a support email",
+				"what is your phone number for support"
+			],
+			"responses": {
+				"message": [
+					"You can contact our support team via live chat, core4engineerspvtltd@gmail.com, or phone. Visit our 'Contact Us' page for details."
+				]
+			}
+		},
+		"product_warranty": {
+			"tag": "product_warranty",
+			"label": "Product Warranty",
+			"id": 14,
+			"patterns": [
+				"do your products come with a warranty",
+				"what is your warranty policy",
+				"how long is the warranty period",
+				"can I get a replacement if my product is faulty",
+				"what does the warranty cover"
+			],
+			"responses": {
+				"message": [
+					"Many of our products come with a warranty. Check the product details or contact support for more information."
+				]
+			}
+		},
+		"about_website": {
+			"tag": "about_website",
+			"label": "About Website",
+			"id": 15,
+			"patterns": [
+				"what is core4 Engineer",
+				"what kind of help can I get here",
+				"what does it do",
+				"what is the purpose of website",
+				"what kind of information can I get there",
+				"what is this website about",
+				"what is the main purpose of this website"
+			],
+			"responses": {
+				"message": [
+					"CORE4 ENGINEERS was established in the year 2014. We are a conglomerate having experienced technocrats in this field and ensure high standard services to our valuable clients. We offer a wide range of services in Engineering, Installation, Testing, Commissioning, and Operations & Maintenance."
+				]
+			}
+		},
+		"product_types": {
+           "tag": "product_types",
+           "label": "Product Types",
+           "id": 16,
+           "patterns": [
+				"what types of products do you offer",
+				"can you list the products available",
+				"what are your main product categories",
+				"do you have industrial electrical components",
+				"what kind of engineering products do you provide",
+				"tell me about your product range",
+				"do you sell electrical equipment",
+				"what products are available for infrastructure projects",
+				"can I see a list of your products",
+				"what kind of tools and supplies do you have"
+			],
+            "responses": {
+                "message": [
+                    "We offer a variety of products, including electrical components, engineering tools, industrial equipment, and infrastructure-related supplies. Visit our Products page for more details."
+                ]
+           }
+        },
+		"pcc_panel": {
+			"tag": "pcc_panel",
+			"label": "Power Control Centre (PCC) Panel",
+			"id": 17,
+			"patterns": [
+				"what is a PCC panel",
+				"tell me about Power Control Centre panels",
+				"features of PCC panels",
+				"applications of PCC panels",
+				"benefits of using PCC panels"
+			],
+			"responses": {
+				"message": [
+					"The Power Control Centre (PCC) Panel is a main power control panel containing feeder breakers, supply breakers, monitoring devices, control devices, switching devices, protection devices, and instrumentation devices. It is designed to ensure accuracy and reliability, using superior quality products for control and power distribution. PCC panels are commonly installed near power sources and are essential for industries, plants, and heavy machinery operations."
+				]
+			}
+		},
+		"apfc_panel": {
+			"tag": "apfc_panel",
+			"label": "Automatic Power Factor Correction (APFC) Panel",
+			"id": 18,
+			"patterns": [
+				"what is an APFC panel",
+				"how does an APFC panel work",
+				"benefits of APFC panels",
+				"applications of APFC panels",
+				"features of Automatic Power Factor Correction panels"
+			],
+			"responses": {
+				"message": [
+					"An Automatic Power Factor Correction (APFC) Panel is designed to improve the power factor of electrical systems by automatically adjusting the reactive power. This leads to enhanced energy efficiency, reduced electricity bills, and improved voltage regulation. APFC panels are widely used in industries to maintain the desired power factor and avoid penalties from utility companies."
+				]
+			}
+		},
+		"mcc_panel": {
+			"tag": "mcc_panel",
+			"label": "Motor Control Centre (MCC) Panel",
+			"id": 19,
+			"patterns": [
+				"what is an MCC panel",
+				"functions of Motor Control Centre panels",
+				"applications of MCC panels",
+				"features of MCC panels",
+				"benefits of using MCC panels"
+			],
+			"responses": {
+				"message": [
+					"A Motor Control Centre (MCC) Panel is used to control and monitor the operation of motors in various industries. It houses motor starters, circuit breakers, fuses, and other control devices, providing centralized control over multiple motors. MCC panels enhance operational efficiency, safety, and ease of maintenance in industrial settings."
+				]
+			}
+		},
+		"ring_main_unit": {
+			"tag": "ring_main_unit",
+			"label": "Ring Main Unit (RMU)",
+			"id": 20,
+			"patterns": [
+				"what is a Ring Main Unit",
+				"functions of RMU",
+				"applications of Ring Main Units",
+				"features of RMU",
+				"benefits of using RMU"
+			],
+			"responses": {
+				"message": [
+					"A Ring Main Unit (RMU) is a compact, sealed, and gas-insulated switchgear unit used in medium-voltage distribution networks. It provides reliable and safe switching operations, fault protection, and load management. RMUs are commonly used in urban power distribution, industrial plants, and infrastructure projects to ensure uninterrupted power supply and system reliability."
+				]
+			}
+		},
+		"feeder_pillar": {
+			"tag": "feeder_pillar",
+			"label": "Feeder Pillar",
+			"id": 21,
+			"patterns": [
+				"what is a feeder pillar",
+				"functions of feeder pillars",
+				"applications of feeder pillars",
+				"features of feeder pillars",
+				"benefits of using feeder pillars"
+			],
+			"responses": {
+				"message": [
+					"A Feeder Pillar is an outdoor electrical enclosure that houses electrical equipment such as circuit breakers, fuses, and busbars. It serves as a central point for distributing electrical power to various outgoing circuits. Feeder pillars are widely used in street lighting, industrial complexes, and commercial buildings to provide reliable and safe power distribution."
+				]
+			}
+		},
+		"remote_terminal_unit": {
+			"tag": "remote_terminal_unit",
+			"label": "Remote Terminal Unit (RTU)",
+			"id": 22,
+			"patterns": [
+				"what is a Remote Terminal Unit",
+				"functions of RTU",
+				"applications of Remote Terminal Units",
+				"features of RTU",
+				"benefits of using RTU"
+			],
+			"responses": {
+				"message": [
+					"A Remote Terminal Unit (RTU) is a microprocessor-based device used in industrial control systems to monitor and control field devices. It collects data from sensors, processes it, and transmits it to a central control system. RTUs are essential components in SCADA systems, enabling remote monitoring and control of industrial processes, utilities, and infrastructure."
+				]
+			}
+		},
+		"dg_synchronization_panel": {
+			"tag": "dg_synchronization_panel",
+			"label": "DG Synchronization Panel",
+			"id": 23,
+			"patterns": [
+				"what is a DG synchronization panel",
+				"functions of DG synchronization panels",
+				"applications of DG synchronization panels",
+				"features of DG synchronization panels",
+				"benefits of using DG synchronization panels"
+			],
+			"responses": {
+				"message": [
+					"A DG Synchronization Panel is used to synchronize multiple diesel generator sets to work together efficiently. It ensures that generators share the load equally, prevents overloading, and provides seamless power supply during peak demands or power outages. DG synchronization panels are crucial in industries, hospitals, and commercial complexes where uninterrupted power is essential."
+				]
+			}
+		},
+		"project_overview": {
+			"tag": "project_overview",
+			"label": "Project Overview",
+			"id": 24,
+			"patterns": [
+				"Can you provide an overview of Core4 Engineers' projects?",
+				"What types of projects has Core4 Engineers completed?",
+				"Tell me about the projects undertaken by Core4 Engineers.",
+				"What kind of engineering projects does Core4 Engineers work on?",
+				"Give me a summary of Core4 Engineers' major projects."
+			],
+			"responses": {
+				"message": [
+					"Core4 Engineers has executed a wide range of projects, including Quick Coach Watering Systems, Station Building Electrification, and RMU installations. Visit our projects page for more details."
+				]
+			}
+		},
+		"project_categories": {
+			"tag": "project_categories",
+			"label": "Project Categories",
+			"id": 25,
+			"patterns": [
+				"What are the main categories of projects handled by Core4 Engineers?",
+				"In which sectors does Core4 Engineers execute projects?",
+				"What types of engineering projects does Core4 Engineers specialize in?",
+				"Do you focus on power transmission or automation projects?",
+				"Are there any civil infrastructure projects completed by Core4 Engineers?"
+			],
+			"responses": {
+				"message": [
+					"Core4 Engineers specializes in power transmission, automation systems, energy management consultancy, pre-engineered buildings, and design and engineering services."
+				]
+			}
+		},
+		"recent_projects": {
+			"tag": "recent_projects",
+			"label": "Recent Projects",
+			"id": 26,
+			"patterns": [
+				"What are some of the recent projects completed by Core4 Engineers?",
+				"Can you list the latest projects undertaken by Core4 Engineers?",
+				"Tell me about the most recent work done by Core4 Engineers.",
+				"Which are the latest infrastructure projects from Core4 Engineers?",
+				"Any recent water supply or energy management projects?"
+			],
+			"responses": {
+				"message": [
+					"Some of our recent projects include the Automation System for Bannur Water Supply Scheme, the Second Stage Water Supply Scheme to Malavalli Town, and the installation of a Compact Substation in Khurda Road."
+				]
+			}
+		},
+		"quick_coach_watering_system": {
+			"tag": "quick_coach_watering_system",
+			"label": "Quick Coach Watering System",
+			"id": 27,
+			"patterns": [
+				"What is the Quick Coach Watering System project?",
+				"How does the Quick Coach Watering System in Mysuru work?",
+				"Tell me about the benefits of the Quick Coach Watering System.",
+				"What technologies are used in the Quick Coach Watering System?",
+				"How does this system improve train operations?"
+			],
+			"responses": {
+				"message": [
+					"The Quick Coach Watering System in Mysuru was implemented to ensure efficient and fast water supply to trains, reducing turnaround time. This system automates the water filling process, ensuring proper pressure and flow rate management to optimize efficiency."
+				]
+			}
+		},
+		"station_building_electrification": {
+			"tag": "station_building_electrification",
+			"label": "Station Building Electrification",
+			"id": 28,
+			"patterns": [
+				"What was the scope of the Station Building Electrification project in Davangere?",
+				"How does station electrification improve railway operations?",
+				"What components were involved in the station electrification project?",
+				"What challenges were faced during the station electrification?",
+				"What are the long-term benefits of electrifying railway station buildings?"
+			],
+			"responses": {
+				"message": [
+					"The Davangere Station Building Electrification project involved upgrading electrical infrastructure, ensuring safety, reliability, and energy efficiency. The project included new transformers, power distribution systems, and energy-saving LED lighting solutions."
+				]
+			}
+		},
+		"rmu_installation": {
+			"tag": "rmu_installation",
+			"label": "Ring Main Unit (RMU) Installation",
+			"id": 29,
+			"patterns": [
+				"What was the purpose of the RMU installation in Hyderabad?",
+				"How does an RMU improve power distribution?",
+				"What are the technical details of the RMU installation project?",
+				"How does RMU installation impact reliability in power supply?",
+				"What are the key benefits of the RMU system in urban power management?"
+			],
+			"responses": {
+				"message": [
+					"The RMU installation in Hyderabad was aimed at improving power distribution and fault isolation, reducing downtime in the electrical grid. This system enhances operational efficiency by enabling remote monitoring and quick fault detection."
+				]
+			}
+		},
+		"compact_substation_installation": {
+			"tag": "compact_substation_installation",
+			"label": "Compact Substation Installation",
+			"id": 30,
+			"patterns": [
+				"What is a compact substation and where was it installed?",
+				"How does a compact substation enhance electrical distribution?",
+				"What were the technical specifications of the Khurda Road substation?",
+				"How does this project benefit the local power grid?",
+				"What were the challenges faced during the installation?"
+			],
+			"responses": {
+				"message": [
+					"The Compact Substation installation in Khurda Road focused on providing a reliable and space-efficient solution for power distribution. The project involved installing a prefabricated substation with advanced protection and control systems to optimize energy efficiency and reduce maintenance requirements."
+				]
+			}
+		},
+		"water_supply_automation": {
+			"tag": "water_supply_automation",
+			"label": "Water Supply Automation",
+			"id": 31,
+			"patterns": [
+				"Tell me about the Automation System for the Bannur Water Supply Scheme.",
+				"How does automation improve water supply management?",
+				"What technologies were used in the Bannur Water Supply Scheme?",
+				"What are the key benefits of automating water supply systems?",
+				"How was the automation system integrated with existing infrastructure?"
+			],
+			"responses": {
+				"message": [
+					"The Bannur Water Supply Scheme was automated to improve water distribution efficiency and reduce manual intervention. The system includes real-time monitoring, automated pump control, and leak detection, ensuring optimal water usage and reduced wastage."
+				]
+			}
+		},
+		"malavalli_water_supply": {
+			"tag": "malavalli_water_supply",
+			"label": "Malavalli Water Supply Project",
+			"id": 32,
+			"patterns": [
+				"What was the Second Stage Water Supply Scheme in Malavalli?",
+				"How does this project improve water availability in Malavalli?",
+				"What technologies were used in the Malavalli water supply project?",
+				"What were the major challenges faced in this project?",
+				"How does this project ensure sustainable water management?"
+			],
+			"responses": {
+				"message": [
+					"The Second Stage Water Supply Scheme to Malavalli Town was designed to meet the growing water demand in the region. The project included pipeline expansion, storage reservoir construction, and automation for efficient water distribution."
+				]
+			}
+		},
+		"bijapur_urban_infrastructure": {
+			"tag": "bijapur_urban_infrastructure",
+			"label": "Bijapur Urban Infrastructure",
+			"id": 33,
+			"patterns": [
+				"What urban infrastructure projects has Core4 Engineers completed in Bijapur?",
+				"How does Core4 Engineers contribute to Bijapur’s development?",
+				"What were the major infrastructure challenges addressed in Bijapur?",
+				"What kind of civil works were involved in the Bijapur project?",
+				"How does this project improve connectivity and city services?"
+			],
+			"responses": {
+				"message": [
+					"The Bijapur Urban Infrastructure project focused on enhancing city services, including road development, drainage systems, and smart city integration for improved urban planning and resource management."
+				]
+			}
+		},
+		"project_experience": {
+			"tag": "project_experience",
+			"label": "Project Experience",
+			"id": 34,
+			"patterns": [
+				"what major projects have you completed",
+				"can you share some examples of past projects",
+				"what industries have you worked with",
+				"do you have experience in large-scale infrastructure projects",
+				"have you handled government contracts",
+				"what are some notable achievements of Core4 Engineers",
+				"can I see case studies of your work",
+				"do you have expertise in renewable energy projects",
+				"what types of clients do you typically serve",
+				"have you worked with international clients"
+			],
+			"responses": {
+				"message": [
+					"Core4 Engineers has completed multiple projects in power transmission, railway electrification, industrial automation, and infrastructure development. Visit our Projects section for detailed case studies."
+				]
+			}
+		},
+		"power_transmission_distribution": {
+			"tag": "power_transmission_distribution",
+			"label": "Power Transmission & Distribution",
+			"id": 35,
+			"patterns": [
+			  "What services are included in Power Transmission & Distribution?",
+			  "How does Core4 Engineers handle substation installations?",
+			  "What are the key components of a power distribution project?",
+			  "How does Core4 ensure the reliability of power grids in transmission projects?",
+			  "What technologies are used in modern power transmission systems?",
+			  "What challenges do power transmission projects face, and how does Core4 overcome them?",
+			  "What safety protocols are followed in high-voltage transmission installations?",
+			  "How does Core4 optimize energy efficiency in power distribution networks?",
+			  "Can you explain the process for integrating renewable energy sources into existing power grids?",
+			  "How does Core4 manage project timelines and budgets for large-scale transmission projects?"
+			],
+			"responses": {
+			  "message": [
+				"Core4 Engineers provides end-to-end solutions in power transmission and distribution, including substation design, HT/LT cabling, and turnkey execution to enhance electrical infrastructure reliability and capacity."
+			  ]
+			}
+		  },
+		  "automation_systems": {
+			"tag": "automation_systems",
+			"label": "Automation Systems",
+			"id": 36,
+			"patterns": [
+			  "What types of automation does Core4 provide?",
+			  "How do automation systems improve efficiency in infrastructure?",
+			  "Can you share examples of automation projects?",
+			  "What is PLC and SCADA and how are they used in Core4 projects?",
+			  "How does Core4 integrate automation into existing legacy systems?",
+			  "What industries benefit most from Core4's automation services?",
+			  "How does automation help in water supply and municipal systems?",
+			  "What cybersecurity measures are taken for industrial automation?",
+			  "How is real-time data monitoring achieved in these systems?",
+			  "What are the long-term cost benefits of automation solutions?"
+			],
+			"responses": {
+			  "message": [
+				"Core4 Engineers delivers advanced automation solutions using PLCs, SCADA, IoT, and telemetry systems to streamline operations across utilities, manufacturing, and infrastructure. Their projects include water supply automation, smart energy management, and customized industrial control systems."
+			  ]
+			}
+		  },
+		  "energy_management_consultancy": {
+			"tag": "energy_management_consultancy",
+			"label": "Energy Management Consultancy Services",
+			"id": 37,
+			"patterns": [
+			  "What is the scope of Core4’s energy consultancy?",
+			  "How does energy management benefit commercial clients?",
+			  "What tools or technologies are used for energy analysis?",
+			  "What is the process for conducting an energy audit?",
+			  "How does Core4 help reduce operational energy costs?",
+			  "What industries benefit most from energy consultancy?",
+			  "How is renewable energy integrated into energy management plans?",
+			  "What standards or certifications does Core4 follow in audits?",
+			  "How can businesses improve energy efficiency through your services?",
+			  "Does Core4 offer real-time energy monitoring systems?"
+			],
+			"responses": {
+			  "message": [
+				"Core4 Engineers provides expert energy consultancy services including energy audits, real-time monitoring, and efficiency optimization. Using advanced tools and analytics, they help clients lower energy consumption, integrate renewable sources, and ensure compliance with energy standards and sustainability goals."
+			  ]
+			}
+		  },
+		  "pre_engineered_buildings": {
+			"tag": "pre_engineered_buildings",
+			"label": "Pre-Engineered Buildings",
+			"id":38,
+			"patterns": [
+			  "What are the benefits of pre-engineered buildings?",
+			  "What industries are best suited for pre-engineered structures?",
+			  "How does Core4 ensure quality in pre-engineered buildings?",
+			  "What materials are used in pre-engineered buildings?",
+			  "How does the construction timeline compare to traditional buildings?",
+			  "Can PEBs be customized for specific business needs?",
+			  "Are PEBs suitable for warehouses and factories?",
+			  "What are the environmental benefits of pre-engineered buildings?",
+			  "How durable are pre-engineered structures over time?",
+			  "Does Core4 offer turnkey solutions for PEBs?"
+			],
+			"responses": {
+			  "message": [
+				"Core4 Engineers designs and delivers Pre-Engineered Buildings (PEBs) that are cost-effective, fast to construct, and highly customizable. These structures use high-strength steel, require minimal on-site labor, and are ideal for industrial, commercial, and institutional applications. PEBs reduce waste, support sustainability, and offer long-term durability with low maintenance needs."
+			  ]
+			}
+		  },
+		  "design_engineering_services": {
+			"tag": "design_engineering_services",
+			"label": "Design and Engineering Services",
+			"id":39,
+			"patterns": [
+			  "What types of engineering designs are offered by Core4?",
+			  "How does Core4 customize design solutions for different clients?",
+			  "What software or tools are used in the design process?",
+			  "Do you offer structural and electrical design services?",
+			  "What industries do Core4's design services cater to?",
+			  "How do you ensure compliance with industry standards?",
+			  "Can Core4 assist with detailed project drawings and documentation?",
+			  "What is the process for initiating a design project with Core4?",
+			  "Do you offer 3D modeling and simulation services?",
+			  "How do Core4’s engineering designs contribute to project efficiency?"
+			],
+			"responses": {
+			  "message": [
+				"Core4 Engineers offers specialized design and engineering services across civil, electrical, mechanical, and structural domains. Using advanced software like AutoCAD, STAAD Pro, and BIM tools, they create efficient, standards-compliant solutions tailored to each project's functional and regulatory needs. Their services support industrial, infrastructure, and utility-based projects with detailed drawings, modeling, and documentation."
+			  ]
+			}
+		  },
+		  "manpower_services": {
+			"tag": "manpower_services",
+			"label": "Manpower Services",
+			"id":40,
+			"patterns": [
+			  "What types of manpower services does Core4 offer?",
+			  "Do you provide skilled and unskilled labor for infrastructure projects?",
+			  "How does Core4 ensure workforce quality and reliability?",
+			  "What sectors can benefit from Core4’s manpower solutions?",
+			  "Does Core4 offer staffing for long-term and short-term projects?",
+			  "How is manpower deployed and managed at project sites?",
+			  "Can Core4 provide technical staff like engineers and supervisors?",
+			  "What are the compliance standards for manpower recruitment?",
+			  "Do you offer contractual or outsourced manpower services?",
+			  "How does Core4 handle training and safety for onsite labor?"
+			],
+			"responses": {
+			  "message": [
+				"Core4 Engineers offers comprehensive manpower solutions, supplying skilled, semi-skilled, and unskilled labor for infrastructure, industrial, and utility projects. Their services include workforce planning, deployment, training, and compliance with labor laws. With a focus on safety, reliability, and scalability, Core4 ensures that clients receive the right talent for both short-term tasks and long-term project support."
+			  ]
+			}
+		  },
+		  "project_management_consultancy": {
+			"tag": "project_management_consultancy",
+			"label": "Project Management Consultancy",
+			"id":41,
+			"patterns": [
+			  "What does Core4 offer under project management consultancy?",
+			  "How does Core4 ensure timely project delivery?",
+			  "What tools or methodologies are used in project management?",
+			  "Does Core4 handle budgeting and cost control?",
+			  "Can you manage multi-disciplinary infrastructure projects?",
+			  "How is project quality monitored and maintained?",
+			  "Do you offer end-to-end project lifecycle management?",
+			  "What sectors do you support with project consultancy services?",
+			  "How does Core4 handle project risk and compliance?",
+			  "Do you provide digital reporting and dashboard systems for projects?"
+			],
+			"responses": {
+			  "message": [
+				"Core4 Engineers provides professional project management consultancy services covering planning, scheduling, budgeting, execution, and monitoring. Utilizing modern tools and methodologies like Primavera and MS Project, Core4 ensures seamless coordination, quality control, cost efficiency, and on-time delivery across infrastructure, industrial, and utility-based projects."
+			  ]
+			}
+		  },
+		  "it_infrastructure_services": {
+			"tag": "it_infrastructure_services",
+			"label": "IT Infrastructure Services",
+			"id":42,
+			"patterns": [
+			  "What IT infrastructure solutions does Core4 Engineers provide?",
+			  "Do you offer data center design and implementation?",
+			  "Can Core4 Engineers manage cloud-based infrastructure?",
+			  "What types of network solutions do you offer?",
+			  "Do you provide IT support and maintenance?",
+			  "How do you handle cybersecurity in IT infrastructure?",
+			  "Can you manage IT infrastructure for large enterprises?",
+			  "Do you offer remote IT management services?",
+			  "What is your approach to IT infrastructure optimization?",
+			  "Do you provide IT consulting services?"
+			],
+			"responses": {
+			  "message": [
+				"Core4 Engineers delivers comprehensive IT infrastructure services, including network design, cloud solutions, data center implementation, cybersecurity, and IT support. Their expertise ensures optimized, secure, and scalable IT systems tailored to diverse business needs."
+			  ]
+			}
+		  },
+		  "sewage_treatment_plant_services": {
+			"tag": "sewage_treatment_plant_services",
+			"label": "Sewage Treatment Plant (STP) Services",
+			"id":43,
+			"patterns": [
+			  "What sewage treatment solutions does Core4 Engineers provide?",
+			  "Do you design and build sewage treatment plants?",
+			  "What technologies are used in your STP solutions?",
+			  "Can Core4 Engineers handle large-scale sewage treatment projects?",
+			  "Do you provide maintenance for sewage treatment plants?",
+			  "What industries benefit from your STP services?",
+			  "How do you ensure compliance with environmental regulations in STP projects?",
+			  "Do you offer turnkey solutions for sewage treatment plants?",
+			  "Can you upgrade existing sewage treatment systems?",
+			  "What is your approach to sustainable water management in STP?"
+			],
+			"responses": {
+			  "message": [
+				"Core4 Engineers provides end-to-end sewage treatment plant (STP) solutions, including design, construction, maintenance, and upgrades. Utilizing advanced technologies, they ensure compliance with environmental standards and offer sustainable water management solutions for industries and communities. Their turnkey services are tailored to meet diverse project requirements effectively."
+			  ]
+			}
+		  },
+		  "studio_homes_services": {
+			"tag": "studio_homes_services",
+			"label": "Studio Homes Services",
+			"id":44,
+			"patterns": [
+			  "What services does Studio Homes by Core4 Engineers offer?",
+			  "Do you provide modular furniture solutions?",
+			  "Can you design custom homes?",
+			  "What are your interior design capabilities?",
+			  "Do you offer turnkey home solutions?",
+			  "What materials are used for modular furniture?",
+			  "Can you create specific interior themes?",
+			  "Do you provide solid wood carvings?",
+			  "What is included in your custom home services?",
+			  "Do you handle both design and construction?"
+			],
+			"responses": {
+			  "message": [
+				"Studio Homes by Core4 Engineers specializes in custom home building, interior design, and modular furniture solutions. They offer modular kitchens, wardrobes, TV units, and solid wood carvings, focusing on ergonomic, functional, and aesthetic designs. Their services include turnkey solutions and personalized designs tailored to customer needs."
+			  ]
+			}
+		  },
+		  "turnkey_solutions": {
+			"tag": "turnkey_solutions",
+			"label": "Turnkey Solutions",
+			"id":45,
+			"patterns": [
+			  "What are turnkey solutions offered by Core4 Engineers?",
+			  "How does Core4 manage end-to-end project delivery?",
+			  "What industries benefit from your turnkey services?",
+			  "Do turnkey projects include design, procurement, and execution?",
+			  "What are the advantages of choosing a turnkey solution?",
+			  "Can Core4 handle large-scale infrastructure as turnkey projects?",
+			  "How do you ensure quality and timelines in turnkey delivery?",
+			  "Does Core4 provide post-completion support in turnkey projects?",
+			  "What makes Core4’s turnkey services stand out?",
+			  "How does risk management work in turnkey project execution?"
+			],
+			"responses": {
+			  "message": [
+				"Core4 Engineers offers comprehensive turnkey solutions that cover the entire project lifecycle—from concept design and procurement to execution, commissioning, and handover. This single-point responsibility approach ensures seamless coordination, cost control, quality assurance, and timely delivery across infrastructure, industrial, and utility sectors."
+			  ]
+			}
+		  },
+		  "operation_maintenance_services": {
+			"tag": "operation_maintenance_services",
+			"label": "Operation and Maintenance Services",
+			"id":46,
+			"patterns": [
+			  "What operation and maintenance services does Core4 provide?",
+			  "Do you offer AMC (Annual Maintenance Contracts) for utilities?",
+			  "How does Core4 manage infrastructure maintenance efficiently?",
+			  "What sectors benefit from your O&M services?",
+			  "Do you provide real-time monitoring as part of O&M?",
+			  "How do you ensure minimum downtime in operations?",
+			  "Can Core4 handle maintenance of electrical and mechanical systems?",
+			  "What is the scope of your water and energy system maintenance?",
+			  "How does Core4 train O&M personnel?",
+			  "Do you provide remote diagnostics and troubleshooting support?"
+			],
+			"responses": {
+			  "message": [
+				"Core4 Engineers delivers end-to-end operation and maintenance (O&M) services across electrical, water, and infrastructure systems. Their offerings include routine inspections, real-time monitoring, predictive maintenance, AMC support, and 24/7 troubleshooting. Focused on system uptime and efficiency, Core4 ensures assets are maintained proactively while complying with safety and operational standards."
+			  ]
+			  }
+          },
+		  "job_opportunities": {
+			"tag": "job_opportunities",
+			"label": "Job Opportunities",
+			"id": 47,
+			"patterns": [
+				"current job openings",
+				"career opportunities",
+				"available positions",
+				"how to apply for jobs"
+	
+			],
+			"responses": {
+				"message": [
+					"Core4 Engineers offers various job opportunities in engineering, project management, sales, and technical support. Check our careers page for the latest openings and application procedures."
+				]
+			}
+		}
+
+		}
+}
